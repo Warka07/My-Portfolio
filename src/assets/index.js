@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import bootstrap from "./tech/bootstrap.png";
+import cpp from "./tech/cpp.png";
+import php from "./tech/php.png";
+import wordpress from "./tech/wordpress.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -25,10 +29,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import jobdesk from "./company/jobdesk.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobportal from "./jobportal.png";
 import tripguide from "./tripguide.png";
+import instalite from "./insta-lite.png";
 
 export {
   logo,
@@ -39,6 +45,8 @@ export {
   github,
   menu,
   close,
+  wordpress,
+  php,
   css,
   docker,
   figma,
@@ -56,7 +64,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  jobdesk,
   carrent,
-  jobit,
   tripguide,
+  cpp,
+  bootstrap,
+  instalite,
+  jobportal,
 };
