@@ -12,13 +12,14 @@ import {
   tailwind,
   git,
   jobdesk,
-  tripguide,
   wordpress,
   php,
   cpp,
   bootstrap,
   instalite,
   jobportal,
+  freepixel,
+  ecommerceWebsite,
 } from "../assets";
 //  nodejs,
 // mongodb,
@@ -53,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Team Lead",
     icon: creator,
   },
 ];
@@ -167,19 +168,19 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Intern Software Engineer",
+    company_name: "Free Pixel Games Ltd.",
+    icon: freepixel,
+    iconBg: "#E6DEDD",
+    date: "Feb - 2022",
+    points: [
+      "Develop game using cocos2dx Js",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Created Some Instant games.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -189,7 +190,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/.jpg",
   },
   {
     testimonial:
@@ -197,7 +198,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/.jpg",
   },
   {
     testimonial:
@@ -205,7 +206,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/.jpg",
   },
 ];
 
@@ -213,14 +214,16 @@ const projects = [
   {
     name: "Insta-lite",
     description:
-      "This is a social media app featuring a visually striking UI with a seamless native mobile experience. Elevating its capabilities, the app is powered by a unique tech stack, incorporating elements such as infinite scroll functionality and exceptional performance through technologies like React JS, Appwrite, TypeScript, and more.",
+      "A visually striking social media app with a seamless native mobile experience. Powered by a unique tech stack, including React JS, Appwrite, TypeScript, and more, it boasts features like infinite scroll and exceptional performance.",
+
+    // "This is a social media app featuring a visually striking UI with a seamless native mobile experience. Elevating its capabilities, the app is powered by a unique tech stack, incorporating elements such as infinite scroll functionality and exceptional performance through technologies like React JS, Appwrite, TypeScript, and more.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -250,19 +253,19 @@ const projects = [
       },
     ],
     image: jobportal,
-    source_code_link: "https://github.com/",
+    source_code_link: "#",
   },
   {
-    name: "Trip Guide",
+    name: "E-commerce Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a dynamic and responsive e-commerce website using React, demonstrating my proficiency in modern web development. The website features a sleek and intuitive user interface, providing a seamless shopping experience for users.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -270,8 +273,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerceWebsite,
+    source_code_link: "https://react-e-commerce-website-zeta.vercel.app/",
   },
 ];
 

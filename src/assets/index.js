@@ -25,16 +25,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import jobdesk from "./company/jobdesk.png";
+import freepixel from "./company/freepixel.jpg";
 
-import carrent from "./carrent.png";
 import jobportal from "./jobportal.png";
-import tripguide from "./tripguide.png";
 import instalite from "./insta-lite.png";
+import ecommerceWebsite from "./Ecommerce-WebsiteReact.png";
 
 export {
   logo,
@@ -60,15 +56,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   jobdesk,
-  carrent,
-  tripguide,
   cpp,
   bootstrap,
   instalite,
   jobportal,
+  freepixel,
+  ecommerceWebsite,
 };
